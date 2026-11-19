@@ -1,6 +1,8 @@
 
+
 public class Ram {
 
+    // Attributes
     private int capacity;
     private double frequency;
 
@@ -10,24 +12,22 @@ public class Ram {
         this.frequency = frequency;
     }
 
-    // Setter capacity
-    public void setCap(int capacity) {
-        this.capacity = capacity;
-    }
-
-    // Getter capacity
-    public int getCap() {
+    // Getters
+    public int getCapacity() {
         return capacity;
     }
 
-    // Setter frequency
-    public void setFre(double frequency) {
-        this.frequency = frequency;
-    }
-
-    // Getter frequency
-    public double getFre() {
+    public double getFrequency() {
         return frequency;
     }
 
+    // Setters
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+
+    public void setFrequency(double frequency) {
+        this.frequency = frequency;
+    }
 }
+
