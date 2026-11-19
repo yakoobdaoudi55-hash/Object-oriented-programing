@@ -1,33 +1,34 @@
 
+
+package ex3;
+
 public class Processor {
 
-    private int model;
+    // Attributes
+    private String model;
     private double frequency;
 
     // Constructor
-    public Processor(int model, double frequency) {
+    public Processor(String model, double frequency) {
         this.model = model;
         this.frequency = frequency;
     }
 
-    // Setter model
-    public void setModel(int model) {
-        this.model = model;
-    }
-
-    // Getter model
-    public int getModel() {
+    // Getters
+    public String getModel() {
         return model;
     }
 
-    // Setter frequency
-    public void setFre(double frequency) {
-        this.frequency = frequency;
-    }
-
-    // Getter frequency
-    public double getFre() {
+    public double getFrequency() {
         return frequency;
     }
 
+    // Setters
+    public void setModel(String model) {
+        this.model = model;
+    }
+
+    public void setFrequency(double frequency) {
+        this.frequency = frequency;
+    }
 }
