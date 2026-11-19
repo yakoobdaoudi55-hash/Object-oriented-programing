@@ -1,33 +1,34 @@
 
+
+
+
 public class SimCard {
 
-    private int simid;
+    // Attributes
+    private int sim_id;
     private String number;
 
     // Constructor
-    public SimCard(int simid, String number) {
-        this.simid = simid;
+    public SimCard(int sim_id, String number) {
+        this.sim_id = sim_id;
         this.number = number;
     }
 
-    // Setter id
-    public void setId(int simid) {
-        this.simid = simid;
+    // Getters
+    public int getSim_id() {
+        return sim_id;
     }
 
-    // Getter id
-    public int getId() {
-        return simid;
-    }
-
-    // Setter number
-    public void setNum(String number) {
-        this.number = number;
-    }
-
-    // Getter number
-    public String getNum() {
+    public String getNumber() {
         return number;
     }
 
+    // Setters
+    public void setSim_id(int sim_id) {
+        this.sim_id = sim_id;
+    }
+
+    public void setNumber(String number) {
+        this.number = number;
+    }
 }
